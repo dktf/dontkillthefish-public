@@ -1,0 +1,62 @@
+
+.btn 
+{
+    display: inline-block;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 700;
+
+    &:focus,&:hover {color: #fff;}
+}
+
+.btn img 
+{
+    height: auto;
+}
+
+.btn-primary 
+{
+    background: #ff006c;
+    color: #fff;
+}
+
+.btn-primary i { padding-left: 15px; }
+
+.btn-md
+{
+    padding: 15px 25px;
+    font-size: 15px;
+}
+
+.btn-lg 
+{
+    padding: 15px 30px;
+    font-size: 19px;
+}
+
+@media(min-width: $sm-width)
+{
+    .btn-md
+    {
+        padding: 20px 25px;
+        font-size: 16px;
+    }
+
+    .btn-lg 
+    {
+        padding: 25px 30px;
+        font-size: 22px;
+    }
+}
+
+@media(max-width: $sm-width)
+{
+    .btn
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

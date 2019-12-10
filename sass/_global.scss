@@ -5,9 +5,11 @@ html,body
     background-color: #050121;
     color: #ffffff;
     width: 100%;
+    min-height: 100vh;
     height: 100%;
     margin: 0;
     font-size: 16px;
+    display: flex;
 }
 
 a
@@ -67,8 +69,8 @@ p.lead
 
 .main-container
 {
+    display: flex;
     width: 100%;
-    min-height: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -143,6 +145,9 @@ main.text-content .container
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    flex-grow: 1;
+    width: 100%;
 }
 
 .feature .container 

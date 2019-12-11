@@ -3,11 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    background: transparent;
 }
 
 .header .container 

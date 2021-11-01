@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  dktf-web:
+    container_name: dktf-web
+    image: dktf-web
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    restart: always
+    ports:
+      - "8081:80"
+    volumes:
+      - ./src:/var/www/site
